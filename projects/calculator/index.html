@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="calculator">
+            <input type="text" name="display" disabled><br>
+            <input type="button" value="9" onclick="calculator.display.value += 9" id="opera">
+            <input type="button" value="8" onclick="calculator.display.value += 8" id="opera">
+            <input type="button" value="7" onclick="calculator.display.value += 7" id="opera">
+            <input type="button" value="+" onclick="calculator.display.value += '+'" id="oper"><br>
+            <input type="button" value="6" onclick="calculator.display.value += 6" id="opera">
+            <input type="button" value="5" onclick="calculator.display.value += 5" id="opera">
+            <input type="button" value="4" onclick="calculator.display.value += 4" id="opera">
+            <input type="button" value="-" onclick="calculator.display.value += '-'" id="oper"><br>
+            <input type="button" value="3" onclick="calculator.display.value += 3" id="opera">
+            <input type="button" value="2" onclick="calculator.display.value += 2" id="opera">
+            <input type="button" value="1" onclick="calculator.display.value += 1" id="opera">
+            <input type="button" value="*" onclick="calculator.display.value += '*'" id="oper"><br>
+            <input type="button" value="0" onclick="calculator.display.value += 0" id="opera">
+            <input type="button" value="." onclick="calculator.display.value += '.'" id="oper">
+            <input type="button" value="/" onclick="calculator.display.value += '/'" id="oper">
+            <input type="button" value="=" onclick="calculator.display.value =eval(calculator.display.value) ">
+            <input type="button" value="DELETE" onclick="calculator.display.value = ''" id="operaa">
+        </form>
+    </div>
+</body>
+</html>

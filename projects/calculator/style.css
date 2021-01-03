@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    margin: 150px;
+}
+*{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: brown;
+    border-color: white;
+    width: 300px;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+input[type = 'text']{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 25px;
+    color: black;
+    background-color: white;
+    padding: 6px;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+}
+input[type = 'button']:hover{
+    background-color: red;
+    color: yellow;
+}
+input[type='button']:focus{
+    outline: none
+}
+input[type = 'button']{
+    width: 65px;
+    font-size: 25px;
+    font-weight: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#oper:hover,#oper a:hover{
+    background-color: red;
+    color: yellow;
+}
+#oper{
+    background-color: yellowgreen;
+    color: blue;
+}
+#opera{
+    background-color: yellow;
+    color: red;
+}
+#opera:hover{
+    background-color: teal;
+    color: violet;
+}
+#operaa:hover{
+    background-color: yellow;
+    color: red;
+}
+#operaa{
+    background-color: red;
+    color: white;
+    width: 100%;
+}
